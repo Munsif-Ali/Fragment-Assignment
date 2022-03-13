@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <Button
+            android:id="@+id/firstButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:background="#992056"
+            android:text="@string/firstButtonText"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            tools:ignore="MissingConstraints"></Button>
+
+        <Button
+            android:id="@+id/secondButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:background="#992056"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="@string/secondButtonText"
+            tools:ignore="MissingConstraints"></Button>
+        <FrameLayout
+            android:id="@+id/fragment_ui"
+            android:name="com.example.fragmentassignment.FragmentTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"></FrameLayout>
+</LinearLayout>

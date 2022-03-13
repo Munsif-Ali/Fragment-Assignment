@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmentAssignment</string>
+    <string name="fragmentOneText">This is First Fragment</string>
+    <string name="fragmentTwoText">This is Second Fragment</string>
+    <string name="firstButtonText">First Fragment</string>
+    <string name="secondButtonText">Second Fragment</string>
+</resources>
